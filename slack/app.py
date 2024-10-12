@@ -131,6 +131,9 @@ def slack_events():
 
     return handler.handle(request)
 
+@flask_app.route("/test")
+def home():
+    return "test", 200
 
 # Run the Flask app
 if __name__ == "__main__":
