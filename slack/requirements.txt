@@ -1,5 +1,7 @@
 python-dotenv
 langchain
+langchain-community
+langchain-core
 openai
 slack-sdk 
 slack-bolt 
